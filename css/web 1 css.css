@@ -1,0 +1,269 @@
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+    background: #c0392b;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    color: #fff;
+    background: #ff3923;
+}
+
+#logo {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu a:hover {
+    background-color: #c0392b;
+    border-radius: 15px;
+}
+
+#banner {
+    background: url('../images/plant 2-2.jpg') no-repeat 0 0;
+    background-size: cover;
+
+}
+
+.banner-title {
+    padding: 4rem;
+
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p {
+    color: #fff;
+    background: rgba(255, 57, 35, 0.7);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i {
+    color: #ff3923;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials {
+    background: url(../images/BG\ 18-1.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+}
+
+/* #testimonials:before
+{
+    background: rgba(147, 196, 244, 0.5);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.img1,
+.img2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+/* img{
+    width: 280px;
+    height: 170px;
+} */
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 {
+    font-size: 1.35rem;
+}
+
+.news-post h3 a {
+    color: #ff3923;
+}
+
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+a.readmore {
+    font-size: 14px;
+    color: #ff3923;
+}
+
+a.readmore::after {
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+#footer-sidebar {
+    color: #fff;
+    background: #3e648a;
+    padding: 20px 0;
+}
+
+.footer-widge h4:after {
+    content: "";
+    background-color: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widge a {
+    color: #fff;
+
+}
+
+.latest-news {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-news li {
+    margin-bottom: 3px;
+
+}
+
+.latest-news li ::before {
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+#footer {
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+
+#social-icons {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+#social-icons li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#social-icons li a {
+    color: #fff;
+    font-size: 23px;
+}
+
+@media (max-width:992px) {
+    .news-post {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #menu {
+        text-align: center;
+    }
+
+    .banner-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .banner-title {
+        padding-top: 0;
+    }
+
+    .section {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial {
+        text-align: center;
+        margin: 30px;
+
+    }
+
+    .footer-widge {
+        margin-bottom: 30px;
+
+    }
+
+    .service-box {
+        margin-bottom: 30px;
+    }
+
+    #footer {
+        text-align: center;
+
+    }
+
+    #social-icons {
+        margin-top: 10px;
+    }
+}

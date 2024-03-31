@@ -1,0 +1,33 @@
+.container
+{
+    border: solid black 3px;
+}
+.row{
+    border: solid red 2px;
+    height: 400px;
+}
+.pink
+{
+    background-color: pink;
+}
+.green
+{
+    background-color: green;
+}
+.blue
+{
+    background-color: blue;
+}
+tr:nth-child(odd)
+{
+    background-color: lightblue;
+}
+table
+{
+    border: 2px solid black;
+    margin: 0 auto;
+}
+th , td {
+    padding: 0 15px;
+    border: 2px solid black;
+}

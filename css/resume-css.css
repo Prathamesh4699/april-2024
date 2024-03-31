@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font: 12pt "tahoma";
+    
+
+}
+.main
+{
+    box-sizing: border-box;
+
+}
+.page
+{
+    width: 21cm;
+    min-height: 29.7cm;
+    /* padding: 1cm; */
+    margin: 1cm auto;
+    border: 1px #d3d3d3 solid;
+    border-radius: 5px;
+    background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0blue, 0.1);
+}
+.subpage
+{
+    padding: 1cm;
+    
+    border: 3px black solid;
+    height: 237mm;
+    /* outline: 2cm #ffbaba solid; */
+   position: relative;
+    
+}
+@page{
+    size: A4;
+    margin: 0;
+
+}
+@media print{
+    .page 
+    {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: inherit;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+h2
+{
+    color: rgb(0, 179, 255);
+    position: absolute;
+    left: 37px;
+    top: 2px;
+}
+.p1{
+    position: absolute;
+    left:52px;
+    top: 32px;
+}
+.p2{
+    position: absolute;
+    left:52px;
+    top: 55px;
+}
+.p3{
+    position: absolute;
+    left:52px;
+    top: 79px;
+}
+hr{ position: absolute;
+    left: 35px;
+    top: 152px;
+    width: 19cm;
+}

@@ -1,0 +1,70 @@
+.main_box, .head,  .left_hand, .body, .right_hand, .left_leg, .right_leg, .left_foot, .right_foot
+{ 
+    text-align: center;
+    color: #fff;
+    border: 4px solid black;
+}
+.main_box
+{
+        width: 39%;
+        margin: 0% auto;
+        background-color: rgb(69, 83, 124);
+    
+}
+.head
+{
+   width: 15%;
+   background-color: rgba(237, 106, 106, 0.6);
+   padding: 6%;
+   margin: 7px auto;
+}
+.body_and_hand
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+.left_hand, .right_hand
+{
+    padding: 4%;
+    margin: 4px;
+    background-color: rgba(237, 106, 106, 0.6);
+}
+.body
+{
+    padding: 17% 28%; 
+    margin: 0%;
+    background-color: rgba(135, 200, 66, 0.6);
+
+}
+ 
+.legs{
+ display: flex;  
+ justify-content: space-evenly;
+}
+.left_leg
+{
+    padding: 9%;
+    width: 0%;
+    margin: 1%;
+    background-color: blue ;
+}
+.right_leg
+{
+    padding: 9%;
+    width: 0%;
+    margin: 1%;
+    background-color: blue;
+}
+.foot
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left_foot, .right_foot
+{
+    padding: 4%;
+    margin: 0% 4% 4%;
+    background-color: rgba(237, 106, 106, 0.6);
+}
+

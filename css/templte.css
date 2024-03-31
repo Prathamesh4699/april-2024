@@ -1,0 +1,45 @@
+.main_box{
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 1px;
+}
+.Header, .banner, .image_with_text, .image_area, .content_area, .sub_banner, .footer{
+    text-align: center;
+    color: #fff;
+}
+.Header{
+    background-color: red;
+    padding: 2%;
+    margin: 1%;
+}
+.banner{
+    background-color: rgb(210, 36, 30);
+    padding: 10%;
+    margin: 1%;
+}
+.image_with_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+.image_area {
+    width: 49%;
+    background: rgb(246, 13, 13);
+    padding: 8% 0%; 
+}
+.content_area {
+    width: 49%;
+    background: rgb(113, 217, 53);
+    padding: 8% 0%;
+}
+.sub_banner {
+    background: purple;
+    margin: 1%;
+    padding: 10%;
+}
+.footer {
+    background: rgb(52, 46, 227);
+    padding: 2%;
+    margin: 1%;
+}

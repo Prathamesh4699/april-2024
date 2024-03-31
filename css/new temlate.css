@@ -1,0 +1,26 @@
+h1
+{
+    color: black ;
+    
+     padding: 3px;
+     text-transform: uppercase;
+     text-align:center;
+}
+hr
+{
+border:3px solid black;
+/* margin: 0 auto; */
+}
+.fa-solid fa-phone
+{
+ color: blueviolet;
+}
+td
+{
+  opacity: 0.5;
+}
+td:hover 
+{
+    opacity: 1;
+    
+}

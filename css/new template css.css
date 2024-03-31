@@ -1,0 +1,148 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.main{
+    width: 1000px;
+    border: 2px solid lightcoral;
+    margin: 0 auto;
+    position: relative;
+
+}
+.header{
+
+    height: 60px; 
+    
+    background:linear-gradient( to left ,rgb(128, 255, 0),  rgb(205, 255, 155) ) ;
+    margin: 0;
+    
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    
+}
+img{
+    width: 118px;
+    height: 109px;
+    position: absolute;
+    margin: -59px 316px;
+    z-index: 1;
+
+}
+
+/* 
+
+.list-bar
+{
+    background:linear-gradient(to right , #e601ff , rgb(242, 202, 255)) ;
+    margin: 0;
+    height: 50px;
+}
+.list-1
+{
+    margin: 0;
+}
+.list-bar ul li {
+    display: inline-block;
+}
+.list-bar ul a{
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+.list-bar ul a:hover {
+    background-color: black;
+    color: white;
+    
+} */
+
+.list-bar
+{
+    display: block;
+    background:linear-gradient(to right , #e601ff , rgb(242, 202, 255)) ;
+    margin: 0;
+    height: 50px;
+    position: relative;
+    /* padding: 20px 10px 10px 20px ; */
+    box-sizing: border-box;
+}
+nav a{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.list-bar, nav :hover{
+    background-color: black;
+    padding: 15px 10px 15px 10px;
+    color: white;
+}
+
+.content{
+    width: 800px;
+    height: 500px;
+   
+    background: linear-gradient(45deg, brown, rgb(199, 199, 6));
+    float: left;
+    box-sizing: border-box;
+    padding: 10%;
+    font-size: 20px;
+    word-spacing:  10px;
+    text-align: justify;
+    text-transform: capitalize
+
+}
+.list-2{
+     background-color: #c53434;
+    float: right;
+    width: 200px;
+    height: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.list-2 ul li {
+    padding: 7px;
+    display: block;
+    margin: 10px;
+    /* width: 70px; */
+    background-color: #ff9138;
+    border-radius: 50px;
+    color: white ;
+    
+    text-transform: uppercase
+
+}
+.list-2 ul :hover
+{
+    /* border: black 3px solid; */
+    border-radius: 50px;
+    box-shadow:  5px 5px 10px black;
+    background-color: ff2424;
+    color: black;
+    text-shadow: 2px 2px 3px #e601ff;
+
+}
+   
+.list-2 ul  a{
+    text-decoration: none;
+    padding-left: 5px;
+    
+
+}
+
+.footer
+{
+    background:linear-gradient(to left , blue , rgb(161, 172, 248)) ;
+    clear: both;
+    height: 30px;
+    text-align: right;
+    color: white;
+    text-shadow: 0.5px 0.7px 0.3px red;
+    font-weight: 900;
+}
